@@ -19,7 +19,7 @@ function Home() {
         <p className="mb-8 flex flex-col items-center text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
           Explore the future of secure and transparent voting systems powered by
           blockchain technology. Your voice matters!
-          <p onClick={()=>window.location="https://github.com/LinuxKunaL/Voting-Dapp"} className="cursor-pointer text-cyan-700 flex gap-2 items-center hover:underline ">
+          <p onClick={()=>window.location="https://github.com/theaayushraman/VOTE-AR/tree/main"} className="cursor-pointer text-cyan-700 flex gap-2 items-center hover:underline ">
             view the source code <FaGithub />
           </p>
         </p>
