@@ -25,7 +25,7 @@ This is a decentralized voting application that empowers users to participate in
 2. Navigate to the project directory:
 
    ```bash
-   cd gigapol
+   cd VOTE-AR
    ```
 
 3. Install dependencies:
@@ -34,19 +34,12 @@ This is a decentralized voting application that empowers users to participate in
    npm install
    ```
 
-4. Compile and deploy the smart contract:
-
-   ```bash
-   truffle migrate --reset
-   ```
-
-5. Start the application:
+4. Start the application:
 
    ```bash
    npm start
    ```
-
-6. Open your browser and visit [http://localhost:3000](http://localhost:3000) to explore GigaPol.
+It will automatically start the application...
 
 ## Usage
 
