@@ -47,5 +47,5 @@ It will automatically start the application...
 - Users can participate in decentralized voting by interacting with the intuitive user interface.
 - The Solidity smart contract ensures the integrity and transparency of the voting process.
 ## Made By
--- Aayush Raman
---Rayansh Khamesra
+- Aayush Raman
+- Rayansh Khamesra
