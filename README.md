@@ -1,3 +1,4 @@
+
 # VOTE-AR  Link (https://vote-ar.vercel.app/)
 This is a decentralized voting application that empowers users to participate in secure and transparent voting using blockchain technology. The application is built with React.js, Tailwind CSS for the frontend, and a Solidity smart contract for decentralized and tamper-proof voting.
 
@@ -45,3 +46,6 @@ It will automatically start the application...
 
 - Users can participate in decentralized voting by interacting with the intuitive user interface.
 - The Solidity smart contract ensures the integrity and transparency of the voting process.
+## Made By
+-- Aayush Raman
+--Rayansh Khamesra
