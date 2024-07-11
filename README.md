@@ -49,3 +49,4 @@ It will automatically start the application...
 ## Made By
 - Aayush Raman
 - Rayansh Khamesra
+- Kritarth Pandey
