@@ -22,10 +22,10 @@ function ElectionCommission() {
     event.preventDefault();
     try {
       if (EthAccount == 0) {
-        ToastFailure("Please connect Metamask ! 💔 ");
+        ToastFailure("Please connect to Metamask ! 💔 ");
         return null;
       } else if (!(await ElectionOwnerVerification(EthAccount))) {
-        ToastFailure("Your are not owner ! 💔");
+        ToastFailure("Your are not the owner ! 💔");
         return null;
       } else {
         const StartDate = new Date(InputDates.StartDate).getTime().toString();
@@ -35,7 +35,7 @@ function ElectionCommission() {
           .send({ from: EthAccount, gas: 480000 });
         Dispatch(setCounter(Counter + 1));
         ToastSuccess(
-          "Date's Updated successful ! 🎉 " +
+          "Date Updated successfully ! 🎉 " +
             web3.utils.fromWei(response.cumulativeGasUsed.toString(), "ether")
         );
       }
@@ -48,10 +48,10 @@ function ElectionCommission() {
   const StopElection = async () => {
     try {
       if (EthAccount == 0) {
-        ToastFailure("Please connect Metamask ! 💔 ");
+        ToastFailure("Please connect to Metamask ! 💔 ");
         return null;
       } else if (!(await ElectionOwnerVerification(EthAccount))) {
-        ToastFailure("Your are not owner ! 💔");
+        ToastFailure("Your are not the owner ! 💔");
         return null;
       } else {
         const StartDate = "0";
@@ -61,7 +61,7 @@ function ElectionCommission() {
           .send({ from: EthAccount, gas: 480000 });
         Dispatch(setCounter(Counter + 1));
         ToastWarring(
-          "Voting Close successful ! 🎉 " +
+          "Voting Closed successfully ! 🎉 " +
             web3.utils.fromWei(response.cumulativeGasUsed.toString(), "ether")
         );
       }
@@ -74,10 +74,10 @@ function ElectionCommission() {
   const HandelShowResult = async () => {
     try {
       if (EthAccount == 0) {
-        ToastFailure("Please connect Metamask ! 💔 ");
+        ToastFailure("Please connect to Metamask ! 💔 ");
         return null;
       } else if (!(await ElectionOwnerVerification(EthAccount))) {
-        ToastFailure("Your are not owner ! 💔");
+        ToastFailure("Your are not the owner ! 💔");
         return null;
       } else if (VotingDate.StartDate != 0 || VotingDate.EndDate != 0) {
         ToastFailure("Voting is running ! 💔");
@@ -88,7 +88,7 @@ function ElectionCommission() {
           .send({ from: EthAccount, gas: 480000 });
         Dispatch(setCounter(Counter + 1));
         ToastSuccess(
-          "Winner declare successful ! 🎉 " +
+          "Winner declared successfully ! 🎉 " +
             web3.utils.fromWei(response.cumulativeGasUsed.toString(), "ether")
         );
       }

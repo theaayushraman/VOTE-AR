@@ -132,7 +132,7 @@ function Navbar() {
           ToastFailure(error.message + " 💔");
         });
     } else {
-      ToastFailure("Metamask is not install ! 💔");
+      ToastFailure("Metamask is not installed ! 💔");
     }
   };
 
@@ -149,7 +149,7 @@ function Navbar() {
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             VOTE AR{" "}
-            <span className="text-cyan-500 text-sm font-light">MADE by AAYUSH & RAYANSH</span>
+            <span className="text-cyan-500 text-sm font-light">MADE by AAYUSH, RAYANSH & KRITARTH</span>
           </span>
         </a>
         <button
