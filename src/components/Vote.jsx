@@ -26,7 +26,7 @@ function Vote() {
       ToastFailure("You have only 1 change ! 💔 ");
       return null;
     } else if (VotingDate.StartDate == 0 || VotingDate.EndDate == 0) {
-      ToastFailure("Voting are closed ! 💔 ");
+      ToastFailure("Voting is closed ! 💔 ");
       return null;
     }
     try {
@@ -88,7 +88,7 @@ function Vote() {
                 htmlFor="terms"
                 className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
               >
-                Your data are store in blockchain ⛓
+                Your data is stored in blockchain ⛓
               </label>
               <button
                 type="submit"
